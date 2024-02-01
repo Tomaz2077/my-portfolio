@@ -5,44 +5,29 @@ import { Typography } from "@material-tailwind/react";
 
 const PROJECTS = [
   {
-    img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    img: "/image/kafka.svg",
+    title: "Apache Kafka produsent",
+    desc: "Laget for å imot data fra for eksempel håndterminaler via REST-API. Produserer events til et kafka kluster.",
+  },
+  {
+    img: "/image/kafka.svg",
+    title: "Apache Kafka konsument",
+    desc: "Enkel konsument laget for å lytte på et kafka kluster topic.",
+  },
+  {
+    img: "/image/coding1.svg",
+    title: "E-handel backend",
+    desc: "Desginet for å håndtere produkt data, innloging, og nettbestillinger. Lagrer og leser fra SQL database.",
   },
   {
     img: "/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
-  },
-  {
-    img: "/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
+    title: "E-handel frontend",
+    desc: "Enkel e-handel nettsted med produktoversikt og persistent varukorg.",
   },
   {
     img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
-  },
-  {
-    img: "/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
+    title: "Porteføljenettsted",
+    desc: "Denne siden du er på nå. Laget for å illustrere mine ferdigheter og prosjekter.",
   },
 ];
 
@@ -51,15 +36,14 @@ export function Projects() {
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          My Projects
+          Mine prosjekter
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Whether you have a mobile app idea that needs to come to life or a
-          website that requires a facelift, I&apos;m here to turn your digital
-          dreams into reality.
+          Når jeg ikke koder på jobb så koder jeg på fritiden. Jeg her for å 
+          gjøre digitale drømmer til virkelighet.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">

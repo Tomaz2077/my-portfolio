@@ -38,7 +38,7 @@ export function ProjectCard({ img, title, desc }: ProjectCardProps) {
           {desc}
         </Typography>
         <Button color="gray" size="sm">
-          see details
+          Se kildekode
         </Button>
       </CardBody>
     </Card>

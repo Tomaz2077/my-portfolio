@@ -20,8 +20,6 @@ export default function Portfolio() {
       <Skills />
       <Testimonial />
       <Projects />
-      <Resume />
-      <PopularClients />
       <ContactForm />
       <Footer />
     </>

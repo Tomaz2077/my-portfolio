@@ -24,13 +24,13 @@ const SKILLS = [
     icon: CodeBracketIcon,
     title: "Backend utvikling",
     children:
-      "Mine analytiske evner tillater meg å raskt sette meg inn i andres sine koder og identifisere bugs og flaskhalser. Har mest erfaring av Java backend-applikasjoner.",
+      "Jeg liker å løse komplekse problestillinger på en enkel og leselig måte. Mine analytiske evner tillater meg å raskt sette meg inn i andres sine koder og identifisere bugs og flaskhalser. Har mest erfaring av Java backend-applikasjoner.",
   },
   {
     icon: EyeIcon,
     title: "User experience",
     children:
-      "Sluttbrukeren er den viktigste aktøren. Jeg setter derfor denne i fokus fra start og følger en vision for at denne skal få best mulig opplevelse.",
+      "Sluttbrukeren er den viktigste aktøren for meg. Jeg setter derfor denne i fokus fra start og følger en vision for at denne skal få best mulig opplevelse.",
   },
   {
     icon: DocumentTextIcon,

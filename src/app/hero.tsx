@@ -20,29 +20,24 @@ function Hero() {
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
             Jeg er Tomaz Perez, en lidenskapelig systemutvikler basert i Norge.
-            Her du vil få et glimt av hvem jeg er og mine ferdigheter.
+            Nedenfor vil du få et glimt av hvem jeg er og mine ferdigheter.
           </Typography>
           <div className="grid">
             <Typography
               variant="small"
               className="mb-2 text-gray-900 font-medium"
             >
-              Din e-post
+              Eller ta kontakt nå!
             </Typography>
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
-              <Input color="gray" label="Angi e-post" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
-                Bli kontaktad
-              </Button>
+              <a href="mailto:tomaz.perez@outlook.com">
+                <Button color="gray" className="w-full px-4 md:w-[18rem]">
+                  Send e-post
+                </Button>
+              </a>
             </div>
           </div>
-          <Typography variant="small" className="font-normal !text-gray-500">
-           Les {" "}
-            <a href="#" className="font-medium underline transition-colors">
-              Avtalevilkår 
-            </a>
-          </Typography>
         </div>
         <Image
           width={1024}
