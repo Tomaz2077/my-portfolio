@@ -47,7 +47,7 @@ export function Projects() {
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Når jeg ikke koder på jobb så koder jeg på fritiden. Jeg her for å 
+          Når jeg ikke koder på jobb så koder jeg på fritiden. Jeg er her for å 
           gjøre digitale drømmer til virkelighet.
         </Typography>
       </div>
