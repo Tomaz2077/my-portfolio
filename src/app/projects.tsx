@@ -32,7 +32,7 @@ const PROJECTS = [
     img: "/image/blog-1.svg",
     title: "Porteføljenettsted",
     desc: "Denne siden du er på nå. Laget for å illustrere mine ferdigheter og prosjekter.",
-    url: "",
+    url: "https://github.com/Tomaz2077/my-portfolio",
   },
 ];
 
