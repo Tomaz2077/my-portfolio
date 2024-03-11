@@ -95,6 +95,42 @@ export function Testimonial() {
             </div>
           </CardBody>
         </Card>
+        <Card color="transparent" shadow={false} className="py-8 lg:flex-row">
+          <CardBody className="w-full lg:gap-10 h-full lg:!flex justify-between ">
+            <div className="w-full mb-10 lg:mb-0">
+              <Typography
+                variant="h3"
+                color="blue-gray"
+                className="mb-4 font-bold lg:max-w-xs"
+              >
+                Kreativ og pragmatisk
+              </Typography>
+              <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
+                Tomaz er en flink utvikler og dyktig problemløser. Han er kreativ og pragmatisk. 
+                Han er en aktiv deltager som er opptatt av å finne de beste løsningene og samtidig "få ting gjort". 
+                Han er nysgjerrig og engasjert, og han bidrar både faglig og sosialt til et godt arbeidsmiljø.
+              </Typography>
+              <Typography variant="h6" color="blue-gray" className="mb-0.5">
+                Stian B. Lindhom - Head Teacher
+              </Typography>
+              <Typography
+                variant="small"
+                className="font-normal mb-5 !text-gray-500"
+              >
+                IT @ AW Academy Norway.
+              </Typography>
+            </div>
+            <div className="h-[21rem] rounded-lg w-full sm:w-[18rem] shrink-0">
+              <Image
+                width={768}
+                height={768}
+                alt="testimonial image"
+                src={`/image/stian.jpg`}
+                className="h-full rounded-lg w-full object-cover"
+              />
+            </div>
+          </CardBody>
+        </Card>
       </div>
     </section>
   );
