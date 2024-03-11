@@ -42,7 +42,7 @@ const SKILLS = [
     icon: QueueListIcon,
     title: "Kø-systemer",
     children:
-      "Jeg blir fascinert og tiltrukket av gigantiske kø-systemer med miljontals events per minutt. Har god erfaring av Apache Kafka og JMS.",
+      "Jeg blir fascinert og tiltrukket av gigantiske kø-systemer med miljontals events per time. Har god erfaring av Apache Kafka og JMS.",
   },
   {
     icon: SwatchIcon,

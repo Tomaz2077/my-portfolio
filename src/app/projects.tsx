@@ -5,6 +5,12 @@ import { Typography } from "@material-tailwind/react";
 
 const PROJECTS = [
   {
+    img: "/image/blog-1.svg",
+    title: "Porteføljenettsted",
+    desc: "Denne siden du er på nå. Laget for å illustrere mine ferdigheter og prosjekter.",
+    url: "https://github.com/Tomaz2077/my-portfolio",
+  },
+  {
     img: "/image/coding1.svg",
     title: "E-handel backend",
     desc: "Desginet for å håndtere produkt data, innloging, og nettbestillinger. Lagrer og leser fra SQL database.",
@@ -27,12 +33,6 @@ const PROJECTS = [
     title: "Apache Kafka konsument",
     desc: "Enkel konsument laget for å lytte på et kafka kluster topic.",
     url: "https://github.com/Tomaz2077/library-kafka-consumer",
-  },
-  {
-    img: "/image/blog-1.svg",
-    title: "Porteføljenettsted",
-    desc: "Denne siden du er på nå. Laget for å illustrere mine ferdigheter og prosjekter.",
-    url: "https://github.com/Tomaz2077/my-portfolio",
   },
 ];
 
