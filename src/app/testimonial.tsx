@@ -107,7 +107,7 @@ export function Testimonial() {
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
                 Tomaz er en flink utvikler og dyktig problemløser. Han er kreativ og pragmatisk. 
-                Han er en aktiv deltager som er opptatt av å finne de beste løsningene og samtidig "få ting gjort". 
+                Han er en aktiv deltager som er opptatt av å finne de beste løsningene og samtidig &laquo;få ting gjort&raquo;. 
                 Han er nysgjerrig og engasjert, og han bidrar både faglig og sosialt til et godt arbeidsmiljø.
               </Typography>
               <Typography variant="h6" color="blue-gray" className="mb-0.5">
